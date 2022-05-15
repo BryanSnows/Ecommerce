@@ -188,6 +188,7 @@ for (let i = 0; i < categorias.length; i++) {
 }
 //--------------------------Atualizações do carrinhp--------------------------
 
+
 //Contador de itens no carrinho
 let carrinhoItens = 0
 
