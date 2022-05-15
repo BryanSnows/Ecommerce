@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Weartake</h1>
+        <nav>     
+            <a href="#" title="menu icon" class="menu-icon">
+                <img src="assets/img/menu.png" alt="Menu Icon">
+            </a>
+            <ul>
+                <li><a href="#" id="todos">Todos</a></li>
+                <li><a href="#" id="acessorios">Acessórios</a></li>
+                <li><a href="#" id="calcados">Calçados</a></li>
+                <li><a href="#" id="camisetas">Camisetas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="flex">
+            <section class="produtos">
+                
+            </section>
+    
+            <aside class="info">
+                <div class="info-pesquisar">
+                    <input type="text" name="pesquisar" id="pesquisar" class="infoText"
+                        placeholder="Digite aqui sua pesquisa">
+                    <input type="button" value="Pesquisar" class="infoButton">
+                </div>
+                <div class="info-carrinho">
+                    <h2>Carrinho de compras</h2>
+    
+                    <div class="carrinho">
+                        <h3>Carrinho vázio</h3>
+                        <span>Adicione itens</span>
+                    </div>
+
+                    <div class="total hidden">
+                        <div class="total-info">
+                            <p>Quantidade:</p>
+                            <p>Total: </p>
+                        </div>
+                        <div class="total-values">
+                            <p id="quantidade">3</p>
+                            <p id="total-preco">R$ 200,00</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://github.com/henriquemarioto">Marioto</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
